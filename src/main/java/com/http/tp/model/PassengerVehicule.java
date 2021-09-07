@@ -1,5 +1,8 @@
 package com.http.tp.model;
 
-public class PassengerVehicule extends Vehicule {
+import javax.persistence.MappedSuperclass;
 
+@MappedSuperclass
+public class PassengerVehicule extends Vehicule {
+private int noofpassengers;
 }
